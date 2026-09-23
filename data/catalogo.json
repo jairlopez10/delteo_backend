@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-19T23:19:39.559Z",
+  "generado": "2026-09-23T03:16:07.642Z",
   "origen": "../frontend/src/components/Productosdb.jsx",
   "reglas": {
     "enviopequeno": 10000,
@@ -47,9 +47,9 @@
     {
       "id": 4,
       "nombre": "Barbie +10 Vestidos con Hija, Bicicleta y Accesorios",
-      "precio": 43000,
-      "preciobase": 23000,
-      "status": "Out Stock",
+      "precio": 89999,
+      "preciobase": 69999,
+      "status": "disponible",
       "idpadre": null
     },
     {
