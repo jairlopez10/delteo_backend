@@ -1,4 +1,5 @@
 import { google } from 'googleapis';
+import obtenerauth from './googleauth.js';
 
 const enviarpedidoinfo = async (datos) => {
 
@@ -7,9 +8,7 @@ const enviarpedidoinfo = async (datos) => {
 
     
 
-    const auth = await google.auth.getClient({
-        scopes: ['https://www.googleapis.com/auth/spreadsheets']
-    })
+    const auth = await obtenerauth()
 
     const sheets = google.sheets({version: 'v4', auth});
 
