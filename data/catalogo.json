@@ -1,0 +1,1400 @@
+{
+  "generado": "2026-09-23T03:16:07.642Z",
+  "origen": "../frontend/src/components/Productosdb.jsx",
+  "reglas": {
+    "enviopequeno": 10000,
+    "enviogrande": 20000,
+    "umbralenviogrande": 20000,
+    "pedidominimo": 44900,
+    "bump": {
+      "id": 362,
+      "nombre": "Orvis Hidrogel X 10.000 Unds",
+      "preciobump": 7900,
+      "preciosuelto": 17900,
+      "requierealgunid": [
+        376,
+        395,
+        401,
+        375
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": 1,
+      "nombre": "Kit de Uñas X12 con Brillos",
+      "precio": 19900,
+      "preciobase": 9900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 2,
+      "nombre": "Computador con Pantalla y Mouse",
+      "precio": 79900,
+      "preciobase": 59900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 3,
+      "nombre": "Computador Interactivo 130 Actividades",
+      "precio": 119900,
+      "preciobase": 99900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 4,
+      "nombre": "Barbie +10 Vestidos con Hija, Bicicleta y Accesorios",
+      "precio": 89999,
+      "preciobase": 69999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 5,
+      "nombre": "Pistola de Burbujas Dinosaurio Rex",
+      "precio": 89999,
+      "preciobase": 69999,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 6,
+      "nombre": "Dinosaurio Rex con Movimiento Luces Sonido",
+      "precio": 56999,
+      "preciobase": 36999,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 7,
+      "nombre": "Dinosaurio Huevo Sorpresa, Luces, Movimiento y Sonido",
+      "precio": 27000,
+      "preciobase": 17000,
+      "status": "Out Stock",
+      "idpadre": null
+    },
+    {
+      "id": 8,
+      "nombre": "Barbie +6 Vestidos con 2 Hijas y Pony",
+      "precio": 54999,
+      "preciobase": 34999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 9,
+      "nombre": "Coleccion de 4 Carros de Impulso y Choque",
+      "precio": 27000,
+      "preciobase": 17000,
+      "status": "Out Stock",
+      "idpadre": null
+    },
+    {
+      "id": 10,
+      "nombre": "Carro Lanza Vapor, Movimiento, Luces y Sonido",
+      "precio": 49900,
+      "preciobase": 29900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 11,
+      "nombre": "Perro con Sensor de Movimiento, Ladra",
+      "precio": 67999,
+      "preciobase": 47999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 12,
+      "nombre": "Pista de Carros Neon Xtreme",
+      "precio": 112999,
+      "preciobase": 92999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 13,
+      "nombre": "Gimnasio Musical Interactivo para Bebe",
+      "precio": 119900,
+      "preciobase": 99900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 14,
+      "nombre": "Carro a Control Remoto con Efecto Vapor",
+      "precio": 119900,
+      "preciobase": 99900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 15,
+      "nombre": "Carro a Control Remoto Estilo Ferrari",
+      "precio": 73900,
+      "preciobase": 53900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 16,
+      "nombre": "Carro a Control Remoto (Bidireccional)",
+      "precio": 44900,
+      "preciobase": 24900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 17,
+      "nombre": "Coche Plastico con Muñeca Baby y Tetero",
+      "precio": 67999,
+      "preciobase": 47999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 18,
+      "nombre": "Maleta Doctor@ Azul & Rosado",
+      "precio": 43999,
+      "preciobase": 23999,
+      "status": "Out Stock",
+      "idpadre": null
+    },
+    {
+      "id": 19,
+      "nombre": "Dragon a Control Remoto con Vapor y Huevos",
+      "precio": 104999,
+      "preciobase": 84999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 20,
+      "nombre": "Perro Colores con Movimiento y Sonido",
+      "precio": 28999,
+      "preciobase": 18999,
+      "status": "Out Stock",
+      "idpadre": null
+    },
+    {
+      "id": 21,
+      "nombre": "Trailer Dinosaurio con Vapor con Dinosaurios y Herramientas",
+      "precio": 27000,
+      "preciobase": 17000,
+      "status": "Out Stock",
+      "idpadre": null
+    },
+    {
+      "id": 22,
+      "nombre": "Camioneta Jeep a Control Remoto Safari",
+      "precio": 27000,
+      "preciobase": 17000,
+      "status": "Out Stock",
+      "idpadre": null
+    },
+    {
+      "id": 23,
+      "nombre": "Excavadora con Movimiento, Luces y Sonido",
+      "precio": 57999,
+      "preciobase": 37999,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 24,
+      "nombre": "Slime con Sorpresa de los Vengadores",
+      "precio": 17999,
+      "preciobase": 7999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 25,
+      "nombre": "Slime con Sorpresa de Mario Bros",
+      "precio": 17999,
+      "preciobase": 7999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 26,
+      "nombre": "Slime con Sorpresa de Paw Patrol",
+      "precio": 17999,
+      "preciobase": 7999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 27,
+      "nombre": "Slime con Sorpresa de Princesas Grande",
+      "precio": 24999,
+      "preciobase": 14999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 28,
+      "nombre": "Slime con Sorpresa de Vengadores Grande",
+      "precio": 24999,
+      "preciobase": 14999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 29,
+      "nombre": "Slime con Sorpresa de Princesas Disney",
+      "precio": 17999,
+      "preciobase": 7999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 30,
+      "nombre": "Bumble Bee Bailarin, Luces y Sonido",
+      "precio": 59999,
+      "preciobase": 39999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 31,
+      "nombre": "Mesa Proyector con Tanque de Agua, 8 Rompecabezas, 12 Marcadores, Sellos",
+      "precio": 114900,
+      "preciobase": 94900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 32,
+      "nombre": "Computador Interactivo Unisex",
+      "precio": 49900,
+      "preciobase": 29900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 33,
+      "nombre": "Patito Burbujeante Bailarin",
+      "precio": 69900,
+      "preciobase": 49900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 34,
+      "nombre": "Carro Loco con Movimiento, Luces y Sonido",
+      "precio": 49900,
+      "preciobase": 29900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 35,
+      "nombre": "Lego Mario Bros",
+      "precio": 27000,
+      "preciobase": 17000,
+      "status": "Out Stock",
+      "idpadre": null
+    },
+    {
+      "id": 36,
+      "nombre": "Maleta Doctora con Accesorios Sonido y Luces",
+      "precio": 27000,
+      "preciobase": 17000,
+      "status": "Out Stock",
+      "idpadre": null
+    },
+    {
+      "id": 37,
+      "nombre": "Cartas UNO H2O!",
+      "precio": 27000,
+      "preciobase": 17000,
+      "status": "Out Stock",
+      "idpadre": null
+    },
+    {
+      "id": 38,
+      "nombre": "Cartas DOS !",
+      "precio": 27000,
+      "preciobase": 17000,
+      "status": "Out Stock",
+      "idpadre": null
+    },
+    {
+      "id": 39,
+      "nombre": "Cartas UNO !",
+      "precio": 27000,
+      "preciobase": 17000,
+      "status": "Out Stock",
+      "idpadre": null
+    },
+    {
+      "id": 40,
+      "nombre": "Set Minecraft con Accesorios",
+      "precio": 27000,
+      "preciobase": 17000,
+      "status": "Out Stock",
+      "idpadre": null
+    },
+    {
+      "id": 42,
+      "nombre": "Juego Jenga con Dados",
+      "precio": 28999,
+      "preciobase": 18999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 43,
+      "nombre": "Cartas de Poker Asequibles",
+      "precio": 27000,
+      "preciobase": 17000,
+      "status": "Out Stock",
+      "idpadre": null
+    },
+    {
+      "id": 44,
+      "nombre": "Cartas de Poker Intermedio",
+      "precio": 27000,
+      "preciobase": 17000,
+      "status": "Out Stock",
+      "idpadre": null
+    },
+    {
+      "id": 45,
+      "nombre": "Cartas de Poker Alta",
+      "precio": 27000,
+      "preciobase": 17000,
+      "status": "Out Stock",
+      "idpadre": null
+    },
+    {
+      "id": 47,
+      "nombre": "Gato Tom Repetidor con Luces y Sonido",
+      "precio": 56999,
+      "preciobase": 36999,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 48,
+      "nombre": "Pez con Movimiento, Luces y Sonido",
+      "precio": 59999,
+      "preciobase": 39999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 50,
+      "nombre": "Lanzador MP5 Recargable Hidrogel",
+      "precio": 104900,
+      "preciobase": 84900,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 51,
+      "nombre": "Pistola Recargable Hidrogel",
+      "precio": 89900,
+      "preciobase": 69900,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 52,
+      "nombre": "Lanzador Hidrogel M416 Automatica Recargable con 3.000 Orvis Hidrogel",
+      "precio": 139900,
+      "preciobase": 119900,
+      "status": "Out Stock",
+      "idpadre": null
+    },
+    {
+      "id": 53,
+      "nombre": "Spiderman Bailarin, Luces y Sonido",
+      "precio": 59999,
+      "preciobase": 39999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 54,
+      "nombre": "Iron Man Bailarin, Luces y Sonido",
+      "precio": 59999,
+      "preciobase": 39999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 55,
+      "nombre": "Carro Loco Grafiti Control Bateria Recargable",
+      "precio": 59900,
+      "preciobase": 39900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 56,
+      "nombre": "Carro Abre Puertas Recargable Control Remoto",
+      "precio": 92999,
+      "preciobase": 72999,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 57,
+      "nombre": "Carro Tanque Lanza Granadas",
+      "precio": 64999,
+      "preciobase": 44999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 58,
+      "nombre": "Carro Control Sensor con Control Remoto y Vapor de Agua",
+      "precio": 129900,
+      "preciobase": 109900,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 59,
+      "nombre": "Maleta Tocador con Accesorios",
+      "precio": 59999,
+      "preciobase": 39999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 60,
+      "nombre": "Maleta Tocador con Luz y Sonido",
+      "precio": 106999,
+      "preciobase": 86999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 61,
+      "nombre": "Maleta Cocina con Accesorios",
+      "precio": 59999,
+      "preciobase": 39999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 62,
+      "nombre": "Maleta Veterinaria Mascota (Rosada y Azul)",
+      "precio": 79999,
+      "preciobase": 59999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 63,
+      "nombre": "Maleta Tocador 3 en 1",
+      "precio": 74999,
+      "preciobase": 54999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 64,
+      "nombre": "Maleta Cocina 3 en 1",
+      "precio": 74999,
+      "preciobase": 54999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 65,
+      "nombre": "Carros Impulso Grafiti",
+      "precio": 19999,
+      "preciobase": 9999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 66,
+      "nombre": "Camion con 3 Carritos de Plants VS Zombies",
+      "precio": 59900,
+      "preciobase": 39900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 67,
+      "nombre": "Cubo Rubik 3X3 Fino",
+      "precio": 24900,
+      "preciobase": 14900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 68,
+      "nombre": "Cubo Rubik 2X2 Fino",
+      "precio": 23900,
+      "preciobase": 13900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 69,
+      "nombre": "Kit Guitarra con Parlante y Microfono",
+      "precio": 179900,
+      "preciobase": 159900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 70,
+      "nombre": "Cry Baby Sorpresa Huevo",
+      "precio": 99900,
+      "preciobase": 79900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 71,
+      "nombre": "Tetris Hello Kitty & Spiderman",
+      "precio": 24999,
+      "preciobase": 14999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 72,
+      "nombre": "Burbujero con Silbato de Personajes",
+      "precio": 13900,
+      "preciobase": 3900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 74,
+      "nombre": "Registradora con Carrito Mercado y Accesorios",
+      "precio": 99900,
+      "preciobase": 79900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 75,
+      "nombre": "Maleta Constructor con Accesorios",
+      "precio": 74900,
+      "preciobase": 54900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 76,
+      "nombre": "Maquillaje Luna Juguete",
+      "precio": 59999,
+      "preciobase": 39999,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 77,
+      "nombre": "Maquillaje Unicornio Juguete",
+      "precio": 52900,
+      "preciobase": 32900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 78,
+      "nombre": "Pista Carros Estilo Cocodrilo",
+      "precio": 99999,
+      "preciobase": 79999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 79,
+      "nombre": "Pista Carros Estilo Tiburon",
+      "precio": 99999,
+      "preciobase": 79999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 100,
+      "nombre": "Frozen con Microfono Alumbra Cabello",
+      "precio": 84900,
+      "preciobase": 64900,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 101,
+      "nombre": "Muñeca Doctora Juguetes con Luz en El Cabello",
+      "precio": 84900,
+      "preciobase": 64900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 105,
+      "nombre": "Shakira Mediana",
+      "precio": 59900,
+      "preciobase": 39900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 106,
+      "nombre": "Mario o Luigi X1 Blister",
+      "precio": 40999,
+      "preciobase": 20999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 107,
+      "nombre": "Muñeca Cry Baby Orina con Pañal y Tetero",
+      "precio": 69900,
+      "preciobase": 49900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 108,
+      "nombre": "Kit de Belleza 52 Piezas",
+      "precio": 119900,
+      "preciobase": 99900,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 114,
+      "nombre": "Kit Maquillaje con Secador de Uñas",
+      "precio": 61900,
+      "preciobase": 41900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 115,
+      "nombre": "Peluche Minie Mouse",
+      "precio": 59900,
+      "preciobase": 39900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 116,
+      "nombre": "Peluche Mario Bros",
+      "precio": 59900,
+      "preciobase": 39900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 118,
+      "nombre": "Bebe Sonido con Sleeping y Canguro",
+      "precio": 82900,
+      "preciobase": 62900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 124,
+      "nombre": "Barbie Individual Maciza",
+      "precio": 21999,
+      "preciobase": 11999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 131,
+      "nombre": "Playdoh de Pulpo",
+      "precio": 64900,
+      "preciobase": 44900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 133,
+      "nombre": "Barbie con Mascota",
+      "precio": 59999,
+      "preciobase": 39999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 135,
+      "nombre": "Barbie Sirena con Luz y Sonido",
+      "precio": 43900,
+      "preciobase": 23900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 136,
+      "nombre": "Muñecas Encanto X2",
+      "precio": 54999,
+      "preciobase": 34999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 142,
+      "nombre": "Muñeca Encanto X1",
+      "precio": 29999,
+      "preciobase": 19999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 148,
+      "nombre": "Vengadores X4 Blister",
+      "precio": 59900,
+      "preciobase": 39900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 160,
+      "nombre": "Play Doh X12",
+      "precio": 64900,
+      "preciobase": 44900,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 167,
+      "nombre": "Boquitoqui de Personajes",
+      "precio": 49900,
+      "preciobase": 29900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 168,
+      "nombre": "Peluche Chimuelo",
+      "precio": 49900,
+      "preciobase": 29900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 170,
+      "nombre": "Baby Yoda X3 en Blister",
+      "precio": 41900,
+      "preciobase": 21900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 174,
+      "nombre": "Lego X1 de Personajes",
+      "precio": 15900,
+      "preciobase": 5900,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 176,
+      "nombre": "Sonajero Digital Musical",
+      "precio": 29999,
+      "preciobase": 19999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 178,
+      "nombre": "Triceratops con Movimiento, Luces y Sonido",
+      "precio": 57900,
+      "preciobase": 37900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 179,
+      "nombre": "Organeta Vaca con Luz y Sonido",
+      "precio": 48900,
+      "preciobase": 28900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 180,
+      "nombre": "Organeta Gusano con Luz y Sonido",
+      "precio": 48900,
+      "preciobase": 28900,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 181,
+      "nombre": "Cry Baby Doctora",
+      "precio": 59900,
+      "preciobase": 39900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 182,
+      "nombre": "Organeta Granja con Luz y Sonido",
+      "precio": 45900,
+      "preciobase": 25900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 186,
+      "nombre": "Organeta Perro con Luz y Sonido",
+      "precio": 62900,
+      "preciobase": 42900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 187,
+      "nombre": "Organeta Caballo con Luz y Sonido",
+      "precio": 62900,
+      "preciobase": 42900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 188,
+      "nombre": "Pistola con Laser Lanza Dardos e Hidrogel",
+      "precio": 49900,
+      "preciobase": 29900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 192,
+      "nombre": "Carro Transformer a Control Remoto",
+      "precio": 99999,
+      "preciobase": 79999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 193,
+      "nombre": "Dinosaurio Lanza Vapor y Pone Huevos",
+      "precio": 89900,
+      "preciobase": 69900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 196,
+      "nombre": "Dinosaurio Chimuelo con Ginete",
+      "precio": 69999,
+      "preciobase": 49999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 198,
+      "nombre": "Dinosaurio Lanza Ping Pong",
+      "precio": 79999,
+      "preciobase": 59999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 218,
+      "nombre": "Lego Transformer 527 Pcs",
+      "precio": 98900,
+      "preciobase": 78900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 219,
+      "nombre": "Lego Barco Dragon de 335 Pcs",
+      "precio": 79900,
+      "preciobase": 59900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 221,
+      "nombre": "Pista Paw Patrol con 2 Carros",
+      "precio": 99999,
+      "preciobase": 79999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 223,
+      "nombre": "Peluche Sonic",
+      "precio": 51900,
+      "preciobase": 31900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 224,
+      "nombre": "Twist Juego",
+      "precio": 54999,
+      "preciobase": 34999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 248,
+      "nombre": "LOL con Huevo Sorpresa Blister",
+      "precio": 44900,
+      "preciobase": 24900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 249,
+      "nombre": "Dinosaurio para Pintar",
+      "precio": 41900,
+      "preciobase": 21900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 256,
+      "nombre": "Peluche Iron Man",
+      "precio": 69900,
+      "preciobase": 49900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 267,
+      "nombre": "Cubo Rubik 4x4",
+      "precio": 49999,
+      "preciobase": 29999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 268,
+      "nombre": "Cubo Rubik 5x5",
+      "precio": 54999,
+      "preciobase": 34999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 269,
+      "nombre": "Pista Mario Karts",
+      "precio": 104999,
+      "preciobase": 84999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 270,
+      "nombre": "Lego Mario Bros 3 en 1",
+      "precio": 84999,
+      "preciobase": 64999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 271,
+      "nombre": "Lego Transformers de 816 Piezas",
+      "precio": 104900,
+      "preciobase": 84900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 275,
+      "nombre": "Play Doh Doctor Dientes",
+      "precio": 54900,
+      "preciobase": 34900,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 277,
+      "nombre": "Lanzadora Hidrogel Larga con Gafas y 1.500 Orvis",
+      "precio": 114900,
+      "preciobase": 94900,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 280,
+      "nombre": "Perro Fino Saca la Lengua con Movimiento y Sonido",
+      "precio": 94999,
+      "preciobase": 74999,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 281,
+      "nombre": "Lego Avengers de 273 Piezas",
+      "precio": 59900,
+      "preciobase": 39900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 288,
+      "nombre": "Carro Paw Patrol Recargable Control Remoto",
+      "precio": 58000,
+      "preciobase": 38000,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 290,
+      "nombre": "Carro Control Vengadores Recargable",
+      "precio": 119900,
+      "preciobase": 99900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 291,
+      "nombre": "Excavadora Control Remoto Recargable",
+      "precio": 109999,
+      "preciobase": 89999,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 296,
+      "nombre": "Carro Control Todo Terreno Recargable (Grande)",
+      "precio": 136999,
+      "preciobase": 116999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 298,
+      "nombre": "Carro Control Mario Kart Recargable",
+      "precio": 94999,
+      "preciobase": 74999,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 300,
+      "nombre": "Carro Control Dinosaurio Recargable",
+      "precio": 74999,
+      "preciobase": 54999,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 301,
+      "nombre": "Carro Control Transformer Grande Recargable con Sensor",
+      "precio": 134999,
+      "preciobase": 114999,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 303,
+      "nombre": "Lanzador AK47 Recargable Hidrogel",
+      "precio": 109900,
+      "preciobase": 89900,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 304,
+      "nombre": "Pista Electrica en 8 con 2 Carros",
+      "precio": 149900,
+      "preciobase": 129900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 313,
+      "nombre": "Perro Paw Patrol con Movimiento y Sonido",
+      "precio": 84999,
+      "preciobase": 64999,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 341,
+      "nombre": "Bebe Sentidos",
+      "precio": 139900,
+      "preciobase": 119900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 349,
+      "nombre": "Cry Baby Caminadora en Caja",
+      "precio": 85900,
+      "preciobase": 65900,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 354,
+      "nombre": "Tablero Magico Digital de Dinosaurio",
+      "precio": 54900,
+      "preciobase": 34900,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 355,
+      "nombre": "Tablero Magico Digital de Conejo Unisex",
+      "precio": 50900,
+      "preciobase": 30900,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 359,
+      "nombre": "Registradora Musical con Mercado, Dinero y Canasta",
+      "precio": 114900,
+      "preciobase": 94900,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 361,
+      "nombre": "Tanque Control Remoto y Manilla Lanza Hidrogel y Vapor de Agua Recargable",
+      "precio": 169900,
+      "preciobase": 149900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 362,
+      "nombre": "Orvis Hidrogel X 10.000 Unds",
+      "precio": 17900,
+      "preciobase": 7900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 370,
+      "nombre": "Fulsil de Agua Recargable",
+      "precio": 99900,
+      "preciobase": 79900,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 371,
+      "nombre": "Pistola de Agua Recargable",
+      "precio": 79900,
+      "preciobase": 59900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 372,
+      "nombre": "Terrenaitor Carro Control Sensor",
+      "precio": 119900,
+      "preciobase": 99900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 373,
+      "nombre": "Subfusil Hidrogel MP5 Recargable",
+      "precio": 104900,
+      "preciobase": 84900,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 374,
+      "nombre": "AK Hidrogel Recargable",
+      "precio": 99900,
+      "preciobase": 79900,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 375,
+      "nombre": "Minigun Hidrogel Recargable",
+      "precio": 149900,
+      "preciobase": 129900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 376,
+      "nombre": "M416 Hidrogel Recargable con Luz y Humo",
+      "precio": 149900,
+      "preciobase": 129900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 377,
+      "nombre": "PKM Hidrogel Recargable",
+      "precio": 99900,
+      "preciobase": 79900,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 378,
+      "nombre": "Tiburon o Delfin Control Remoto (Tiburon)",
+      "precio": 139900,
+      "preciobase": 119900,
+      "status": "disponible",
+      "idpadre": 378
+    },
+    {
+      "id": 379,
+      "nombre": "Drifter Lancha Control Remoto",
+      "precio": 129900,
+      "preciobase": 109900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 380,
+      "nombre": "Velociraptor Dinosaurio a Control y Vapor",
+      "precio": 99900,
+      "preciobase": 79900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 382,
+      "nombre": "Dinosaurio Za Za",
+      "precio": 69900,
+      "preciobase": 49900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 383,
+      "nombre": "Lámpara Luna Esfera",
+      "precio": 64900,
+      "preciobase": 44900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 384,
+      "nombre": "Nutria Relajante Respira",
+      "precio": 89900,
+      "preciobase": 69900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 385,
+      "nombre": "Consola Game Box Ultra Recargable",
+      "precio": 84900,
+      "preciobase": 64900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 386,
+      "nombre": "Computador con Pantalla y Mousee (Princesas)",
+      "precio": 79900,
+      "preciobase": 59900,
+      "status": "disponible",
+      "idpadre": 381
+    },
+    {
+      "id": 386,
+      "nombre": "Computador con Pantalla Interactivo (Rosado)",
+      "precio": 79900,
+      "preciobase": 59900,
+      "status": "disponible",
+      "idpadre": 386
+    },
+    {
+      "id": 388,
+      "nombre": "Lego de Minecraft y Luz de 239pcs (Morado)",
+      "precio": 94900,
+      "preciobase": 74900,
+      "status": "disponible",
+      "idpadre": 388
+    },
+    {
+      "id": 389,
+      "nombre": "Lego de Minecraft y Luz de 239pcs (Rojo)",
+      "precio": 94900,
+      "preciobase": 74900,
+      "status": "disponible",
+      "idpadre": 388
+    },
+    {
+      "id": 390,
+      "nombre": "Lego de Minecraft y Luz de 239pcs (Azul)",
+      "precio": 94900,
+      "preciobase": 74900,
+      "status": "disponible",
+      "idpadre": 388
+    },
+    {
+      "id": 391,
+      "nombre": "Lego de Minecraft y Luz de 239pcs (Verde)",
+      "precio": 94900,
+      "preciobase": 74900,
+      "status": "disponible",
+      "idpadre": 388
+    },
+    {
+      "id": 395,
+      "nombre": "MP5 Hidrogel Recargable con Luz y Humo",
+      "precio": 109900,
+      "preciobase": 89900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 399,
+      "nombre": "Tiburon o Delfin Control Remoto (Delfin)",
+      "precio": 139900,
+      "preciobase": 119900,
+      "status": "disponible",
+      "idpadre": 378
+    },
+    {
+      "id": 400,
+      "nombre": "Computador con Pantalla Interactivo (Azul)",
+      "precio": 79900,
+      "preciobase": 59900,
+      "status": "disponible",
+      "idpadre": 386
+    },
+    {
+      "id": 401,
+      "nombre": "M16 Hidrogel Recargable con Luz y Humo",
+      "precio": 139900,
+      "preciobase": 119900,
+      "status": "No Stock",
+      "idpadre": null
+    },
+    {
+      "id": 402,
+      "nombre": "Orvis Hidrogel Fluorescentes X 10.000 Unds",
+      "precio": 18900,
+      "preciobase": 8900,
+      "status": "disponible",
+      "idpadre": null
+    },
+    {
+      "id": 407,
+      "nombre": "Perro Caminador, Repetidor y de Sensor (Cafe)",
+      "precio": 139900,
+      "preciobase": 119900,
+      "status": "disponible",
+      "idpadre": 387
+    },
+    {
+      "id": 409,
+      "nombre": "Juego Basta y Uno Flip GRATIS",
+      "precio": 79900,
+      "preciobase": 59900,
+      "status": "disponible",
+      "idpadre": null
+    }
+  ]
+}

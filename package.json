@@ -6,7 +6,13 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "sync:catalogo": "node scripts/sync-catalogo.js",
+    "probar:wompi": "node scripts/probar-wompi.js",
+    "probar:precios": "node scripts/probar-precios.js",
+    "probar": "node scripts/probar-wompi.js && node scripts/probar-precios.js",
+    "probar:integracion": "node scripts/probar-integracion.js",
+    "orden:prueba": "node scripts/crear-orden-prueba.js"
   },
   "author": "Jair Lopez",
   "license": "ISC",
