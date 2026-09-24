@@ -31,6 +31,15 @@ const catalogo = () => {
 
 export const reglas = () => catalogo().reglas;
 
+/*
+Id del producto al que pertenece un item del carrito (el padre si es una variante).
+Es el id que se reporta a GA4 y a Meta, el mismo que usa el Pixel en la pagina de producto.
+*/
+export const idproducto = (id, nombre) => {
+    const item = catalogo().porclave.get(`${id}|${String(nombre ?? '').trim()}`);
+    return item?.idpadre ?? item?.id ?? id;
+};
+
 const normalizartexto = (valor) => String(valor ?? '').trim();
 
 /*
@@ -98,6 +107,7 @@ export const calcularorden = (itemscarrito) => {
 
         return {
             id: item.id,
+            idproducto: item.idpadre ?? item.id,
             nombre: item.nombre,
             cantidad,
             preciounitario,

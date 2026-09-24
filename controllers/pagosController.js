@@ -1,6 +1,7 @@
 import crypto from 'crypto';
 import enviarpedidoinfo from '../helpers/enviarpedidoinfo.js';
-import { calcularorden } from '../helpers/precios.js';
+import { calcularorden, idproducto } from '../helpers/precios.js';
+import { atribuciondelrequest, enviarpurchase, eventidpurchase } from '../helpers/metacapi.js';
 import {
     ESTADOS, actualizarpago, buscarporreferencia, conbloqueo,
     crearpago, esfinaldelteo, estadodesdewompi
@@ -61,7 +62,7 @@ const nuevoordenid = () =>
 
 const crearorden = async (req, res) => {
     try {
-        const { items, cliente } = req.body || {};
+        const { items, cliente, atribucion } = req.body || {};
 
         const calculo = calcularorden(items);
         const revisioncliente = validarcliente(cliente);
@@ -88,7 +89,12 @@ const crearorden = async (req, res) => {
             referencia,
             ordenid,
             montoencentavos,
-            cliente: revisioncliente.cliente,
+            /*
+            fbp, fbc, IP y user agent de esta visita, para que el Purchase de CAPI que sale
+            del webhook quede atribuido al navegador y al anuncio. Van dentro del JSON de
+            cliente para no agregar columnas a la pestaña Pagos.
+            */
+            cliente: { ...revisioncliente.cliente, atribucion: atribuciondelrequest(req, atribucion) },
             items: calculo.items
         });
 
@@ -182,6 +188,7 @@ const sincronizar = async (transaccion, fuente) => {
             if (fila.estado === ESTADOS.PAGADO && !fila.ordenescrita) {
                 // Recuperacion: quedo pagado pero el pedido no llego a Orders
                 await escribirorden(fila, transaccion);
+                reportarpurchase(fila);
                 const recuperada = await actualizarpago(numerofila, fila, {
                     ordenescrita: true,
                     ultimoevento: `${resumen} ORDEN_RECUPERADA`
@@ -198,6 +205,7 @@ const sincronizar = async (transaccion, fuente) => {
 
         if (nuevoestado === ESTADOS.PAGADO && !ordenescrita) {
             await escribirorden(fila, transaccion);
+            reportarpurchase(fila);
             ordenescrita = true;
             console.log(`[pagos] ${referencia}: pago aprobado por ${fuente}, pedido agregado a Orders`);
         }
@@ -236,6 +244,22 @@ const escribirorden = async (fila, transaccion) => {
         telefono: fila.cliente?.telefono || '',
         cedula: fila.cliente?.cedula || '',
         total
+    });
+};
+
+/*
+Purchase a Meta por CAPI. Se llama justo despues de escribir el pedido en Orders, que
+pasa una sola vez por orden (bandera ordenescrita), asi que sale un solo Purchase por
+orden aunque lleguen varios webhooks o el cliente recargue la pagina de resultado.
+El Pixel de la pagina de resultado manda el mismo event_id y Meta los deduplica.
+Sin await: un fallo o una demora de Meta no afecta el pedido.
+*/
+const reportarpurchase = (fila) => {
+    enviarpurchase({
+        eventid: eventidpurchase(fila.ordenid),
+        total: fila.montoencentavos / 100,
+        items: fila.items.map(item => ({ ...item, idproducto: item.idproducto ?? idproducto(item.id, item.nombre) })),
+        atribucion: fila.cliente?.atribucion
     });
 };
 
@@ -310,6 +334,8 @@ const consultarpago = async (req, res) => {
             estadowompi: transaccion.status,
             estado: fila?.estado || estadodesdewompi(transaccion.status),
             referencia: transaccion.reference,
+            // El navegador lo usa como transaction_id (GA4) y como eventID del Pixel (= CAPI)
+            ordenid: fila?.ordenid || null,
             metodopago: transaccion.payment_method_type || null,
             total: fila ? fila.montoencentavos / 100 : Number(transaccion.amount_in_cents) / 100,
             items: fila?.items || [],
