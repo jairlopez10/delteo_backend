@@ -10,7 +10,8 @@
     "sync:catalogo": "node scripts/sync-catalogo.js",
     "probar:wompi": "node scripts/probar-wompi.js",
     "probar:precios": "node scripts/probar-precios.js",
-    "probar": "node scripts/probar-wompi.js && node scripts/probar-precios.js",
+    "probar:capi": "node scripts/probar-capi.js",
+    "probar": "node scripts/probar-wompi.js && node scripts/probar-precios.js && node scripts/probar-capi.js",
     "probar:integracion": "node scripts/probar-integracion.js",
     "orden:prueba": "node scripts/crear-orden-prueba.js"
   },
