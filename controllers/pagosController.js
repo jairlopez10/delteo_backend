@@ -64,7 +64,8 @@ const crearorden = async (req, res) => {
     try {
         const { items, cliente, atribucion } = req.body || {};
 
-        const calculo = calcularorden(items);
+        // El pago en linea lleva el descuento por prepago; el checkout muestra el mismo valor
+        const calculo = calcularorden(items, { metodopago: 'wompi' });
         const revisioncliente = validarcliente(cliente);
         const errores = [...revisioncliente.errores, ...calculo.errores];
 
@@ -76,6 +77,7 @@ const crearorden = async (req, res) => {
                 errores,
                 items: calculo.items,
                 subtotal: calculo.subtotal,
+                descuento: calculo.descuento,
                 total: calculo.total
             });
         }
@@ -136,6 +138,7 @@ const crearorden = async (req, res) => {
             montoencentavos,
             total: calculo.total,
             subtotal: calculo.subtotal,
+            descuento: calculo.descuento,
             items: calculo.items,
             // Listo para redirigir. Se devuelven tambien los campos sueltos por si
             // en el futuro se quiere usar un formulario o el widget.

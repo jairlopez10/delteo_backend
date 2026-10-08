@@ -32,6 +32,19 @@ const catalogo = () => {
 export const reglas = () => catalogo().reglas;
 
 /*
+Descuento por pagar en linea (prepago). Misma formula que muestra el checkout
+(src/helpers/pagos.js), pero la cifra que vale es esta: el navegador solo la muestra.
+Se redondea a los $100 mas cercanos para no cobrar valores con cifras sueltas.
+*/
+const PORCENTAJE_PREPAGO_PORDEFECTO = 0.05;
+
+export const descuentoprepago = (subtotal) => {
+    const porcentaje = reglas().prepago?.porcentaje ?? PORCENTAJE_PREPAGO_PORDEFECTO;
+    const redondeo = reglas().prepago?.redondeo ?? 100;
+    return Math.round((subtotal * porcentaje) / redondeo) * redondeo;
+};
+
+/*
 Id del producto al que pertenece un item del carrito (el padre si es una variante).
 Es el id que se reporta a GA4 y a Meta, el mismo que usa el Pixel en la pagina de producto.
 */
@@ -43,10 +56,13 @@ export const idproducto = (id, nombre) => {
 const normalizartexto = (valor) => String(valor ?? '').trim();
 
 /*
-Devuelve { ok, items, subtotal, total, errores }.
+Devuelve { ok, items, subtotal, descuento, total, errores }.
 Los montos van en pesos enteros: el peso colombiano no usa decimales.
+
+opciones.metodopago: con 'wompi' se aplica el descuento por pagar en linea.
+Contra entrega (o sin opciones) no lleva descuento.
 */
-export const calcularorden = (itemscarrito) => {
+export const calcularorden = (itemscarrito, opciones = {}) => {
     const { porclave, reglas: r } = catalogo();
     const errores = [];
 
@@ -116,7 +132,7 @@ export const calcularorden = (itemscarrito) => {
     });
 
     const subtotal = items.reduce((suma, item) => suma + item.subtotal, 0);
-    const descuento = 0;               // hoy siempre 0, igual que en el checkout actual
+    const descuento = opciones.metodopago === 'wompi' ? descuentoprepago(subtotal) : 0;
     const total = subtotal - descuento;
 
     if (subtotal < r.pedidominimo) {
