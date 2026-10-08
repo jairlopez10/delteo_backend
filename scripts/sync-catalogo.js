@@ -21,6 +21,9 @@ const UMBRAL_ENVIO_GRANDE = 20000;
 const PEDIDO_MINIMO = 44900;          // src/paginas/Checkout.jsx
 const ID_ORVIS = 362;                 // order bump
 const IDS_LANZADORAS_HIDROGEL = [376, 395, 401, 375];
+// Descuento por pagar en linea (src/helpers/pagos.js en el frontend)
+const PORCENTAJE_PREPAGO = 0.05;
+const REDONDEO_PREPAGO = 100;
 
 const rutapordefecto = '../frontend/src/components/Productosdb.jsx';
 
@@ -128,6 +131,7 @@ const main = async () => {
             enviogrande: ENVIO_GRANDE,
             umbralenviogrande: UMBRAL_ENVIO_GRANDE,
             pedidominimo: PEDIDO_MINIMO,
+            prepago: { porcentaje: PORCENTAJE_PREPAGO, redondeo: REDONDEO_PREPAGO },
             // El Orvis vale menos cuando entra como order bump junto a una lanzadora.
             // Es el backend quien decide cual precio aplica, mirando el resto del carrito.
             bump: {

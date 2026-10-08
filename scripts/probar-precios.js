@@ -53,6 +53,18 @@ r = calcularorden([{ ...ORVIS, cantidad: 1 }]);
 revisar(`por debajo del minimo (${reglas().pedidominimo}) se rechaza`, r.ok, false);
 revisar('pero devuelve el total calculado', r.total, 17900);
 
+console.log('--- Descuento por pagar en linea (5%) ---');
+r = calcularorden([{ ...M416, cantidad: 1 }], { metodopago: 'wompi' });
+revisar('M416 con prepago: 149.900 - 7.500', r.total, 142400);
+revisar('el descuento viaja en la respuesta', r.descuento, 7500);
+revisar('el subtotal no cambia', r.subtotal, 149900);
+revisar('contra entrega no lleva descuento', calcularorden([{ ...M416, cantidad: 1 }], { metodopago: 'contraentrega' }).total, 149900);
+revisar('sin metodo tampoco', calcularorden([{ ...M416, cantidad: 1 }]).descuento, 0);
+// El minimo se revisa contra el subtotal: el descuento no puede dejar un pedido por debajo
+r = calcularorden([{ id: 16, nombre: 'Carro a Control Remoto (Bidireccional)', cantidad: 1 }], { metodopago: 'wompi' });
+revisar('un pedido justo en el minimo se acepta con descuento', r.ok, true);
+revisar('y cobra el minimo menos el 5%', r.total, 44900 - 2200);
+
 console.log('--- Colision del id 386 (dos productos distintos) ---');
 const p386a = calcularorden([{ id: 386, nombre: 'Computador con Pantalla y Mousee (Princesas)', cantidad: 1 }]);
 const p386b = calcularorden([{ id: 386, nombre: 'Computador con Pantalla Interactivo (Rosado)', cantidad: 1 }]);
