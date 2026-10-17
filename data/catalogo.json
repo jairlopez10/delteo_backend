@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-08T01:32:11.686Z",
+  "generado": "2026-10-17T07:11:21.474Z",
   "origen": "../frontend/src/components/Productosdb.jsx",
   "reglas": {
     "enviopequeno": 10000,
@@ -1385,8 +1385,24 @@
       "idpadre": null
     },
     {
+      "id": 406,
+      "nombre": "Perro Caminador, Repetidor y de Sensor (Blanco con Negro)",
+      "precio": 139900,
+      "preciobase": 119900,
+      "status": "disponible",
+      "idpadre": 387
+    },
+    {
       "id": 407,
       "nombre": "Perro Caminador, Repetidor y de Sensor (Cafe)",
+      "precio": 139900,
+      "preciobase": 119900,
+      "status": "disponible",
+      "idpadre": 387
+    },
+    {
+      "id": 408,
+      "nombre": "Perro Caminador, Repetidor y de Sensor (Blanco)",
       "precio": 139900,
       "preciobase": 119900,
       "status": "disponible",
