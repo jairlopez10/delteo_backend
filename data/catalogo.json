@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-17T07:11:21.474Z",
+  "generado": "2026-11-13T02:48:39.254Z",
   "origen": "../frontend/src/components/Productosdb.jsx",
   "reglas": {
     "enviopequeno": 10000,
@@ -1347,8 +1347,8 @@
     {
       "id": 395,
       "nombre": "MP5 Hidrogel Recargable con Luz y Humo",
-      "precio": 109900,
-      "preciobase": 89900,
+      "precio": 99900,
+      "preciobase": 79900,
       "status": "disponible",
       "idpadre": null
     },
