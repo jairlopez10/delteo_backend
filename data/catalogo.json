@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-13T02:48:39.254Z",
+  "generado": "2026-11-15T20:13:54.864Z",
   "origen": "../frontend/src/components/Productosdb.jsx",
   "reglas": {
     "enviopequeno": 10000,
@@ -1243,8 +1243,8 @@
     {
       "id": 378,
       "nombre": "Tiburon o Delfin Control Remoto (Tiburon)",
-      "precio": 139900,
-      "preciobase": 119900,
+      "precio": 119900,
+      "preciobase": 99900,
       "status": "disponible",
       "idpadre": 378
     },
@@ -1355,8 +1355,8 @@
     {
       "id": 399,
       "nombre": "Tiburon o Delfin Control Remoto (Delfin)",
-      "precio": 139900,
-      "preciobase": 119900,
+      "precio": 119900,
+      "preciobase": 99900,
       "status": "disponible",
       "idpadre": 378
     },
